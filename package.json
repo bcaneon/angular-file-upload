@@ -1,0 +1,25 @@
+{
+  "name": "file-upload",
+  "version": "1.0.0",
+  "description": "angular file upload module",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcaneon/angular-file-upload.git"
+  },
+  "keywords": [
+    "angular",
+    "file",
+    "upload",
+    "javascript"
+  ],
+  "author": "bcaneon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcaneon/angular-file-upload/issues"
+  },
+  "homepage": "https://github.com/bcaneon/angular-file-upload#readme"
+}

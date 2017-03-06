@@ -1,0 +1,11 @@
+<div class="input-group">
+  <input type="text" ng-class="config.input.class" id="{{config.input.id}}" name="{{config.input.name}}" placeholder="{{config.input.placeholder}}">
+  <input type="file" class="hidden" id="{{config.fileInput.id}}" name="{{config.fileInput.name}}">
+  <span class="input-group-btn">
+        <button type="button" ng-class="btn.class" ng-bind-html="btn.text" ng-repeat="btn in config.buttons" ng-if="btn.visible" ng-click="btn.event()"></button>
+
+        <!-- <button type="button" ng-class="config.selectFileBtn.class" ng-bind-html="config.selectFileBtn.text" ng-repeat="btn in config.buttons"></button>
+        <button type="button" ng-class="config.uploadFileBtn.class" ng-bind-html="config.uploadFileBtn.text"></button>
+        <button type="button" ng-class="config.removeSelectionBtn.class" ng-bind-html="config.removeSelectionBtn.text"></button>-->
+    </span>
+</div>
