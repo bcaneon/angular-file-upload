@@ -5,4 +5,5 @@ angular
 /** @ngInject */
 function MainCtrl($scope) {
     // $scope.mesaj="Hello World";
+    $scope.pictureFile="uploads/resim.jpg";
 }
